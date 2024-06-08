@@ -1,0 +1,20 @@
+pipeline {
+    agent { label 'label-selector' }
+    stages {
+        stage('VCS') {
+            steps {
+
+            }
+        }
+        stage('build and package') {
+            steps {
+
+            }
+        }
+        stage ('reporting') {
+            steps {
+                
+            }
+        }
+    }
+}
